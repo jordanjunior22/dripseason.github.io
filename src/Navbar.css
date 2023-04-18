@@ -1,0 +1,44 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    background-color: #2f2f2f;
+    color: white;
+}
+.navbar_left{
+    display: flex;
+    max-width: 100%;
+}
+.navbar_left p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.navbar_right{
+    display: flex;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar_right p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.navbar_logo{
+    display: flex;
+    align-items: center;
+}
+.navbar_logo img{
+    width: 250px;
+    height: 100px;
+}
+.bg img{
+    width: 600px;
+}
+

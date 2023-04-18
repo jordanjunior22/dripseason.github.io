@@ -1,0 +1,30 @@
+
+
+.home{
+    background-image: url('./assets/homepage.png');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5); /* white color with 50% opacity */
+    position: relative;
+    border: 1px solid white;
+}
+.top_picks{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    
+    color: white;
+    background-color: green;
+}
+
+.top_picks h2{
+ border: 1px solid white;
+ background-color: lightgreen;
+ color: black;
+ height: fit-content;
+ position: absolute;
+ font-size: 30px;
+ width: 100%;
+ text-align: center;
+
+}
